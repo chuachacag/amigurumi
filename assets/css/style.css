@@ -1,0 +1,75 @@
+/****** INICIO MENU DESPLEGABLE *******/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: NONE;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: rgb(218, 218, 218, .5);
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+/****** FIN MENU DESPLEGABLE *******/
+.color-texto{
+    color: rgb(224,126,121);
+}
+.limit-text{
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-center{
+    text-align: center;
+}
+.est-logo{
+    
+    margin-top: -3rem;
+    
+}
+body{
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-textura-grunge-tonos-sepia_1048-19418.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fondo-blanco{
+    background-color: #fff;
+}
+.width-all{
+	width: 100%;
+}
